@@ -1,0 +1,75 @@
+:root {
+  --bg: #ffffff;
+  --text: #1d2129;
+  --muted: #5d6573;
+  --line: #e3e6eb;
+  --accent: #b7791f;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11141a;
+    --text: #e6e8ec;
+    --muted: #9aa3b2;
+    --line: #2a2f3a;
+    --accent: #f5b73d;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.75 -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  word-break: keep-all;
+}
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+h1 {
+  margin: 0 0 4px;
+  font-size: 24px;
+}
+h2 {
+  margin: 36px 0 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 17px;
+}
+.meta {
+  color: var(--muted);
+  font-size: 13px;
+}
+a {
+  color: var(--accent);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  display: block;
+  overflow-x: auto;
+}
+th,
+td {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  white-space: nowrap;
+}
+.lead {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+nav {
+  margin-bottom: 24px;
+  font-size: 14px;
+}
