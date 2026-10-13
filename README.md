@@ -1,6 +1,6 @@
-# jonber-legal
+# project-jonber-legal
 
-존버빌(JonberVille)의 이용약관·개인정보처리방침. GitHub Pages 로 낸다 — https://richfaber.github.io/jonber-legal/
+존버빌(JonberVille)의 이용약관·개인정보처리방침. GitHub Pages 로 낸다 — https://richfaber.github.io/project-jonber-legal/
 
 **왜 따로 있나.** 스토어는 앱을 안 깐 사람도 열 수 있는 주소를 요구한다. 앱 서버(집)에 두면 서버가 내려갈 때
 문서도 내려가 심사 중 반려된다. 본 저장소(project-jonber)는 비공개라 Pages 를 못 쓴다. 그래서 문서만 공개로 뗐다.
