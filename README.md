@@ -13,6 +13,7 @@
 | 신고 1년 · 1,000건, 직전 30분 · 20줄 | `server/src/admin/reports.ts` 의 `KEEP_MS` · `KEEP`, `PlazaRoom` 의 `remember` |
 | 금칙어 10분 · 하루 | `server/src/admin/sanctions.ts` |
 | 운영 기록은 용량만큼 | `deploy/docker-compose.yml` 의 `logging` |
+| 운영 기록의 앱 성능 기록(광장을 옮길 때 프레임 시간) | `app/src/net/perf.ts` · 서버 `PlazaRoom` 의 `perf` 처리 — 보내는 값을 늘리면 여기도 |
 | 만 19세 이상 · 규칙 동의 | `app/src/ui/Rules.tsx` (규칙 문구를 고치면 `RULES_VERSION` 을 올린다) |
 
 약관·방침을 크게 바꾸면 `Rules.tsx` 의 `RULES_VERSION` 을 올려 다시 동의받는다(약관 제10조).
